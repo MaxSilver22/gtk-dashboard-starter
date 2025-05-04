@@ -1,0 +1,48 @@
+/* Roboto font (system fallback if not installed) */
+* {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background: #23272b;
+    min-width: 120px;
+    border: none;
+}
+
+/* Sidebar button styling */
+.sidebar-button, .sidebar-button:checked {
+    background: transparent;
+    color: #f8f9fa;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 2px 0 2px 0;
+    min-height: 24px;
+    font-size: 0.9em;
+    transition: background 0.2s;
+    outline: none;
+}
+.sidebar-button:hover {
+    background: #343a40;
+    color: #fff;
+}
+.sidebar-button.active {
+    background: #495057;
+    color: #fff;
+}
+
+/* Content area */
+.content-area {
+    background: #343a40;
+    color: #f8f9fa;
+}
+
+/* H1 style for page titles */
+.h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-top: 0;
+} 

@@ -1,0 +1,21 @@
+# Ignore build output
+/dashboard
+*.o
+*.out
+*.a
+*.so
+
+# Ignore editor/IDE files
+*~
+*.swp
+*.swo
+*.bak
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+Thumbs.db 
