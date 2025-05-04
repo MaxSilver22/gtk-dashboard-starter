@@ -2,6 +2,8 @@
 
 This repository provides a **simple, modular template for a Linux desktop dashboard application using GTK (C)**. It is designed as a starting point for building modern, minimal dashboards on Debian-based systems.
 
+![GTK Dashboard Screenshot](resources/screenshots/dashboard.png)
+
 **Status:** _In development — this template will evolve over time as features and best practices are refined._
 
 ## Features
